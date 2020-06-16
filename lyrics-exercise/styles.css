@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+
+}
+
+h1 {
+    font-family: 'Sancreek', cursive;
+    font-size: 48pt
+}
+
+h2 {
+    font-family: 'Sancreek', cursive;
+    font-size: 18pt;
+}
+
+.brackets{
+    font-weight: bolder;
+}
+
+header{
+    line-height: 18pt;
+}

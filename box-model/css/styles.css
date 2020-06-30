@@ -1,0 +1,126 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    min-width: 960px;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+body > header {
+    color:  rgb(225, 231, 235);
+    padding-bottom: 153px;
+    padding-top: 1px;
+    background-image: url(https://payload.cargocollective.com/1/22/724674/13178048/6829C361-46B9-4E44-B99A-29D9A5773510.jpg);
+    background-size: cover;
+    background-position: center 80%;
+}
+
+img.second-image {
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+
+.grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+section.first{
+    padding-bottom: 36px;
+    padding-top: 6px;
+    background-color: rgb(60, 78, 60);
+    color: rgb(248, 168, 122);;
+}
+
+section.second{
+    padding-bottom: 25px;
+    padding-top: 6px;
+    background-color: rgb(250, 196, 165);
+    color: rgb(255, 60, 0);
+}
+
+section.third {
+    text-align: center;
+    padding-left: calc(50% - 335px);
+    padding-right: calc(50% - 335px);
+    padding-top: 6px;
+    padding-bottom: 86px;
+    background-color: rgb(60, 78, 60);
+    color: rgb(250, 196, 165);
+}
+
+
+h1 {
+    font-size: 5rem;
+    padding-top: 1.23em;
+    padding-left: .012em;
+    margin-bottom: 0rem;
+}
+h3 {
+    font-size: 1.88rem;
+    margin-top: -.2rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    margin-bottom: .5em;
+    margin-top: 0em;
+}
+
+body > header,
+body > section,
+body > footer {
+    padding-left: calc(50% - 480px);
+    padding-right: calc(50% - 480px);
+  }
+  
+section p {
+    font-size: 13pt;
+    line-height: 1.45em;
+}
+
+img {
+    float: right;
+    padding: 0rem 0rem 2rem 2rem;
+}
+
+.third p {
+    font-size: 1.5em;
+}
+
+.grid {
+    padding: 0;
+    padding-right: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid li {
+    display: block;
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+}
+
+.grid li:nth-of-type(even){
+padding-left: 1em;
+}
+
+.grid li img {
+    float: left;
+    padding: 0 .75rem 1.5rem 0rem;
+}
+
+footer {
+    font-size: 1.15rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: darksalmon;
+    color: rgb(250, 196, 165);
+}

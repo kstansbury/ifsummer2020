@@ -4,7 +4,7 @@ body {
     padding: 5%;
     font-family: ff-ernestine-pro, serif;
     font-weight: lighter;
-    /* background: linear-gradient(180deg, peachpuff, white); */
+    background-color: peachpuff;
 }
 
 article {
@@ -15,7 +15,7 @@ article {
 h1 {
     font-family: blenny, sans-serif;
     font-size: 4rem;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid rgb(221, 158, 103);
 }
 
 @media (max-width: 900px) {
@@ -30,7 +30,8 @@ h1 {
 
 header {
     padding-bottom: 2rem;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid rgb(221, 158, 103);
+
 }
 
 main {
@@ -122,7 +123,7 @@ section.ingredients ul {
 @media (max-width: 640px) {
     section.ingredients {
         padding-bottom: 2rem;
-        border-bottom: 1px solid black;
+        border-bottom: 3px solid rgb(221, 158, 103);
     }
     section.preparation {
         padding-top: 2rem;
@@ -139,9 +140,12 @@ section.ingredients ul {
 
 footer {
     margin-top: 7rem;
+    border-top: 3px solid rgb(221, 158, 103);
+    padding-top: 2rem;
 }
 
 a {
+    color: peru;
     text-decoration: none;
 }
 
@@ -154,6 +158,12 @@ a:active {
 }
 
 
+
+.ingredient-name, .quantity {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .quantity {
     width: 57px;
     text-align: right;
@@ -164,11 +174,3 @@ a:active {
     width: 70%;
     padding-left: 5px;
 }
-
-
-.ingredient-name, .quantity {
-    display: inline-block;
-    vertical-align: top;
-}
-
-

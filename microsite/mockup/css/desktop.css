@@ -1,0 +1,16 @@
+html {
+	cursor: url('https://img.icons8.com/ios-glyphs/32/FFFFFF/rocket.png'), auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+    width: 200%;
+	max-width: 1400px;
+	min-width: 1000px;
+	margin: auto;
+    display: block;
+}

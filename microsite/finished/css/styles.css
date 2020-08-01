@@ -1,0 +1,323 @@
+html {
+    background-color: black;
+    max-width: 1400px;
+    margin: auto;
+    padding: 5%;
+    cursor: url('https://img.icons8.com/ios-glyphs/32/FFFFFF/rocket.png'), auto;
+    color: white;
+}
+
+body {
+    font-family: BD Jupiter, sans-serif;
+}
+
+p {
+    display: block;
+    max-width: 400px;
+    line-height: 1.25rem;
+    font-family: base-mono-wide, monospace;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* headers */
+
+header h1 {
+    font-family: bd-geminis, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    border-bottom: solid 4px white;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1.title { 
+    font-size: 10vw;
+    font-family: bd-geminis, sans-serif;
+    line-height: 100%;
+    position: relative;
+}
+
+.intro img.gif {
+    position: absolute;
+    width: 50%;
+    right: -5%;
+    bottom: 5%;
+}
+
+.intro.fande, .intro.types {
+    padding-bottom: 4rem;
+}
+
+main h1 {
+    font-size: 8vw;
+    font-family: bd-geminis, sans-serif;
+    line-height: 100%;
+    white-space: nowrap;
+}
+
+
+/* nav bar */
+
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 30px 40px 30px 40px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+a.galaxy:hover {
+    text-decoration: none;
+}
+
+a.current {
+    position: relative;
+}
+
+.current img.icon {
+    position: absolute;
+    bottom: 16px;
+}
+
+
+@media (max-width: 1048px) {
+    .nav ul {
+        text-align: left;
+    }
+    .nav li {
+        display: block;
+    }
+    .nav li a {
+        padding-left: 0;
+        padding-top: 0;
+    }
+}
+
+
+/* back to top */
+
+a.back-to-top svg {
+    position: fixed;
+    bottom: 3vw;
+    right: 3vw;
+    z-index: 99;
+    width: 8vw;
+}
+
+a.back-to-top svg:hover {
+    right: 3.5vw;
+    bottom: 3.5vw;
+    width: 7vw;
+}
+
+
+a.back-to-top svg:active {
+    right: 4vw;
+    bottom: 4vw;
+    width: 6vw;
+}
+
+@media (max-width:900px ) {
+    a.back-to-top svg {
+        width: 71.75px;
+    }
+    a.back-to-top svg:hover {
+        width: 63px;
+        right: 4vw;
+        bottom: 4vw;
+    }
+    a.back-to-top svg:active {
+        width: 48px;
+        right: 5.5vw;
+        bottom: 5.5vw;
+    }
+}
+
+
+/* Home Page */
+
+.intro img.main.gif {
+    top: 15%;
+}
+
+div.galaxy {
+    background-image: url(file:///Users/kaitlynstansbury/Documents/ifsummer2020/publish/microsite/www/images/Main-page-galaxy.png);
+    background-repeat: no-repeat;
+    padding: 50% 0% 20% 0%;
+    background-size: 100%;
+}
+
+.milky-way {
+    position: relative;
+}
+
+div.milky-way {
+    background-image: url(file:///Users/kaitlynstansbury/Documents/ifsummer2020/publish/microsite/finished/images/Milky-way.png);
+    background-repeat: no-repeat;
+    padding: 75% 0% 0% 0%;
+    background-size: 100%;
+}
+
+.milky-way img.milkyway.gif {
+    position: absolute;
+    top: 0;
+    right: 45%;
+    width: 70%;
+}
+
+
+/* Types */
+
+.ellipticals h1, .spirals h1, .irregulars h1 {
+    position: relative;
+}
+
+.ellipticals img.gif, .irregulars img.gif, .spirals img.gif {
+    position: absolute;
+    width: 30%;
+    bottom: -25%;
+    z-index: 99;
+} 
+
+.ellipticals img.gif, .spiral img.gif {
+    transform: rotate(-45deg);
+}
+
+.ellipticals img.gif, .irregulars img.gif {
+    left: 60%;
+}
+
+.spirals img.gif {
+    left: 50%;
+}
+
+.irregulars img.gif {
+    transform: rotate(90deg);
+}
+
+.ellipticals img, .spirals img, .irregulars img {
+    position: relative;
+    z-index: -1;
+}
+
+.ellipticals img {
+    bottom: 40vw;
+}
+
+.spirals img, .irregulars img {
+    bottom: 25vw;
+}
+
+.ellipticals {
+    margin-bottom: -70vw;
+}
+
+.spirals {
+    margin-bottom: -40vw;
+}
+
+.irregulars {
+    margin-bottom: -20vw;
+}
+
+/* Formation and Evolution */
+
+.formation h1, .evolution h1 {
+    position: relative;
+}
+
+.formation img.gif, .evolution img.gif{
+    position: absolute;
+    width: 20%;
+    bottom: 10%;
+    right: 25%;
+}
+
+.evolution img, .formation img {
+    position: relative;
+    bottom: 10vw;
+    z-index: -1;
+}
+
+/* Nearby */
+
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+img.gif.stars {
+    transform: rotate(270deg);
+    right: 15%;
+    top: 2%;
+}
+
+p.nearby {
+    position: relative;
+    top: .5rem;
+    left: 2rem;
+}
+
+p.nearby .icon {
+    position: absolute;
+    bottom: -15px;
+    left: -3rem;
+}
+
+
+
+/* footer */
+
+footer {
+    border-top: solid 4px white;
+    padding-top: 2rem;
+    margin-top: 4rem;
+}
+
+footer p {
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+
+/* Extra Bottom Padding */
+
+main.home, main.nearby {
+    padding-bottom: 10vw;
+}

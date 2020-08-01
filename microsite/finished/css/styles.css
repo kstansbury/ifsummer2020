@@ -173,7 +173,7 @@ a.back-to-top svg:active {
 }
 
 div.galaxy {
-    background-image: url(file:///Users/kaitlynstansbury/Documents/ifsummer2020/publish/microsite/www/images/Main-page-galaxy.png);
+    background-image: url(https://github.com/kstansbury/ifsummer2020/edit/master/microsite/finished/images/Main-page-galaxy.png);
     background-repeat: no-repeat;
     padding: 50% 0% 20% 0%;
     background-size: 100%;
@@ -184,7 +184,7 @@ div.galaxy {
 }
 
 div.milky-way {
-    background-image: url(file:///Users/kaitlynstansbury/Documents/ifsummer2020/publish/microsite/finished/images/Milky-way.png);
+    background-image: url(https://github.com/kstansbury/ifsummer2020/edit/master/microsite/finished/images/Milky-way.png);
     background-repeat: no-repeat;
     padding: 75% 0% 0% 0%;
     background-size: 100%;
